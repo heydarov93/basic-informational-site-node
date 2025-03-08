@@ -1,5 +1,5 @@
-import { createServer } from "http";
-import fs from "fs/promises";
+const createServer = require("http").createServer;
+const fs = require("fs/promises");
 
 const PORT = 8000;
 
