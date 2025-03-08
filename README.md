@@ -1,5 +1,7 @@
 # basic-informational-site-node
 
+The Odin Project - NodeJS - Getting Started
+
 ### How to run project?
 
 - In the terminal go into the root directory
