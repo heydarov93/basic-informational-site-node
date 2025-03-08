@@ -28,7 +28,7 @@ const server = createServer(async (req, res) => {
           await servePageHandler("./index.html", req, res);
         } else if (req.url === "/about") {
           await servePageHandler("./about.html", req, res);
-        } else if (req.url === "/contact") {
+        } else if (req.url === "/contact-me") {
           await servePageHandler("./contact-me.html", req, res);
         } else {
           res.statusCode = 404;
